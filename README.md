@@ -14,7 +14,7 @@ There are 2 examples:
 1. CPU implementation [`example_pytorchNN_cpu.cpp`](example_pytorchNN_cpu.cpp)
 2. GPU implementation [`example_pytorchNN_gpu.cpp`](example_pytorchNN_gpu.cpp)
 
-For more details on the [PyTorch C++ frontend API](https://pytorch.org/tutorials/advanced/cpp_frontend.html) used in these scripts, refer to [`torch_interface.cpp`](torch_interface.cpp). 
+For more details on the [PyTorch C++ frontend API](https://pytorch.org/tutorials/advanced/cpp_frontend.html) used in these scripts, refer to [`torch_interface.h`](torch_interface.h). 
 
 The sample model used here, `PyTorch_model_Cpp.pt`, is for a fluid flow emulator which takes 36 inputs and gives 4 outputs.
 
