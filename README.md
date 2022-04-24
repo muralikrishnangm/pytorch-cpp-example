@@ -2,9 +2,11 @@
 
 Sample scripts for testing PyTorch models in C++. Both CPU \& GPU implementations are provided.
 
-**Authors**: Muralikeishnan Gopalakrishnan Meena & Matthew R. Norman (ORNL)
+Author: Muralikrishnan Gopalakrishnan Meena (Oak Ridge National Laboratory), https://sites.google.com/view/muraligm/
 
-**Email**: gopalakrishm@ornl.gov
+Contributors:
+* Murali Gopalakrishnan Meena
+* Matt Norman (Oak Ridge National Laboratory), https://mrnorman.github.io/
 
 # Description
 
