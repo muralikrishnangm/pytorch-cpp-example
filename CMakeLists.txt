@@ -7,14 +7,13 @@ endif()
 
 find_package(Torch REQUIRED)
 
-set(CXX_SRC torch_interface.cpp)
 if ("${ARCH}" STREQUAL "CUDA")
   set(MAIN_SRC example_pytorchNN_gpu.cpp)
 else()
   set(MAIN_SRC example_pytorchNN_cpu.cpp)
 endif()
 
-add_executable(example ${CXX_SRC} ${MAIN_SRC})
+add_executable(example ${MAIN_SRC})
 target_link_libraries(example ${TORCH_LIBRARIES})
 set_property(TARGET example PROPERTY CXX_STANDARD 14)
 
